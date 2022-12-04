@@ -52,5 +52,30 @@ import Foundation
 //Оценка клиента
 
 
-var client1 =  Client(productName: "Cola", productPrice: 12, productExDate:12.11, productWeight: "22kg", nameAndSurname: "Бектур Исаманалиев", orderDate: "22.12.2022", timeOrder: 18.56, deliveryTime: "10 - 15 min", deliveryPrice: 13, clientMark: 5)
-client1.takeOrder(value: 12, adress: "Manasa 12")
+var meal1 =  Meal(productName: "Potato", productPrice: 12, productExDate:12.11, productWeight: "22kg", nameAndSurname: "Бектур Исаманалиев", orderDate: "22.12.2022", timeOrder: 18.56, deliveryTime: "10 - 15 min", deliveryPrice: 13, clientMark: 5)
+var meal2 =  Meal(productName: "Meat", productPrice: 2, productExDate:12.11, productWeight: "22kg", nameAndSurname: "Бектур Исаманалиев", orderDate: "22.12.2022", timeOrder: 18.56, deliveryTime: "10 - 15 min", deliveryPrice: 13, clientMark: 5)
+var meal3 =  Meal(productName: "Cucumber", productPrice: 13, productExDate:12.11, productWeight: "22kg", nameAndSurname: "Бектур Исаманалиев", orderDate: "22.12.2022", timeOrder: 18.56, deliveryTime: "10 - 15 min", deliveryPrice: 13, clientMark: 5)
+var meal4 =  Meal(productName: "Bread", productPrice: 12, productExDate:12.11, productWeight: "22kg", nameAndSurname: "Бектур Исаманалиев", orderDate: "22.12.2022", timeOrder: 18.56, deliveryTime: "10 - 15 min", deliveryPrice: 13, clientMark: 5)
+var meal5 =  Meal(productName: "Tomato", productPrice: 1, productExDate:12.11, productWeight: "22kg", nameAndSurname: "Бектур Исаманалиев", orderDate: "22.12.2022", timeOrder: 18.56, deliveryTime: "10 - 15 min", deliveryPrice: 13, clientMark: 5)
+
+meal1.takeOrder(value: 14, adress: "dcefd")
+
+var drinks1 = Drinks(productName: "Cola", productPrice: 4, productExDate: 20.12, productWeight: "0,5 kg", nameAndSurname: "Кot Bot", orderDate: "12.12.2020", timeOrder: 22.00, deliveryTime: "10 - 15 min", deliveryPrice: 12, clientMark: 5)
+var drinks2 = Drinks(productName: "Cola", productPrice: 4, productExDate: 20.12, productWeight: "0,5 kg", nameAndSurname: "Кot Bot", orderDate: "12.12.2020", timeOrder: 22.00, deliveryTime: "10 - 15 min", deliveryPrice: 12, clientMark: 5)
+
+var drinks3 = Drinks(productName: "Cola", productPrice: 4, productExDate: 20.12, productWeight: "0,5 kg", nameAndSurname: "Кot Bot", orderDate: "12.12.2020", timeOrder: 22.00, deliveryTime: "10 - 15 min", deliveryPrice: 12, clientMark: 5)
+
+var drinks4 = Drinks(productName: "Cola", productPrice: 4, productExDate: 20.12, productWeight: "0,5 kg", nameAndSurname: "Кot Bot", orderDate: "12.12.2020", timeOrder: 22.00, deliveryTime: "10 - 15 min", deliveryPrice: 12, clientMark: 5)
+var drinks5 = Drinks(productName: "Cola", productPrice: 4, productExDate: 20.12, productWeight: "0,5 kg", nameAndSurname: "Кot Bot", orderDate: "12.12.2020", timeOrder: 22.00, deliveryTime: "10 - 15 min", deliveryPrice: 12, clientMark: 5)
+
+var sanProd1 = SanProducts(productName: "Fayri", productPrice: 12, productExDate: 20.22, productWeight: "12 g", nameAndSurname: "Koko Jambo", orderDate: "20.12.2023", timeOrder: 22.00, deliveryTime: "10-20 min", deliveryPrice: 12, clientMark: 5)
+var sanProd2 = SanProducts(productName: "Krot", productPrice: 12, productExDate: 20.22, productWeight: "12 g", nameAndSurname: "Koko Jambo", orderDate: "20.12.2023", timeOrder: 22.00, deliveryTime: "10-20 min", deliveryPrice: 12, clientMark: 5)
+var sanProd3 = SanProducts(productName: "Белизна", productPrice: 12, productExDate: 20.22, productWeight: "12 g", nameAndSurname: "Koko Jambo", orderDate: "20.12.2023", timeOrder: 22.00, deliveryTime: "10-20 min", deliveryPrice: 12, clientMark: 5)
+var sanProd4 = SanProducts(productName: "Mr.Proper", productPrice: 12, productExDate: 20.22, productWeight: "12 g", nameAndSurname: "Koko Jambo", orderDate: "20.12.2023", timeOrder: 22.00, deliveryTime: "10-20 min", deliveryPrice: 12, clientMark: 5)
+var sanPro5 = SanProducts(productName: "Comet", productPrice: 12, productExDate: 20.22, productWeight: "12 g", nameAndSurname: "Koko Jambo", orderDate: "20.12.2023", timeOrder: 22.00, deliveryTime: "10-20 min", deliveryPrice: 12, clientMark: 5)
+
+var techProd1 = Technicks(productName: "IPhone", productPrice: 1000, productExDate: 20.22, productWeight: "12 g", nameAndSurname: "Steve Jobs", orderDate: "20.12.2023", timeOrder: 22.00, deliveryTime: "10-20 min", deliveryPrice: 12, clientMark: 5)
+var techProd2 = Technicks(productName: "MacBook", productPrice: 1200, productExDate: 20.22, productWeight: "1kg", nameAndSurname: "Steve Jobs", orderDate: "20.12.2023", timeOrder: 22.00, deliveryTime: "10-20 min", deliveryPrice: 12, clientMark: 5)
+var techProd3 = Technicks(productName: "AirPODS", productPrice: 200, productExDate: 20.22, productWeight: "12 g", nameAndSurname: "Steve Jobs", orderDate: "20.12.2023", timeOrder: 22.00, deliveryTime: "10-20 min", deliveryPrice: 12, clientMark: 5)
+var techProd4 = Technicks(productName: "Apple Watch", productPrice: 800, productExDate: 20.22, productWeight: "12 g", nameAndSurname: "Steve Jobs", orderDate: "20.12.2023", timeOrder: 22.00, deliveryTime: "10-20 min", deliveryPrice: 12, clientMark: 5)
+var techProd5 = Technicks(productName: "Irun", productPrice: 1000, productExDate: 20.22, productWeight: "12 g", nameAndSurname: "Steve Jobs", orderDate: "20.12.2023", timeOrder: 22.00, deliveryTime: "10-20 min", deliveryPrice: 12, clientMark: 5)

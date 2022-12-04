@@ -14,7 +14,6 @@
 		914EC17E293BA59600F9B581 /* Crosssover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914EC17D293BA59600F9B581 /* Crosssover.swift */; };
 		914EC180293BE2FA00F9B581 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914EC17F293BE2FA00F9B581 /* Product.swift */; };
 		914EC182293BE33F00F9B581 /* food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914EC181293BE33F00F9B581 /* food.swift */; };
-		914EC187293BE4D900F9B581 /* Clients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914EC186293BE4D900F9B581 /* Clients.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,7 +37,6 @@
 		914EC17D293BA59600F9B581 /* Crosssover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crosssover.swift; sourceTree = "<group>"; };
 		914EC17F293BE2FA00F9B581 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		914EC181293BE33F00F9B581 /* food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food.swift; sourceTree = "<group>"; };
-		914EC186293BE4D900F9B581 /* Clients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clients.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +76,6 @@
 				914EC17D293BA59600F9B581 /* Crosssover.swift */,
 				914EC17F293BE2FA00F9B581 /* Product.swift */,
 				914EC181293BE33F00F9B581 /* food.swift */,
-				914EC186293BE4D900F9B581 /* Clients.swift */,
 			);
 			path = "lesson 12 hw";
 			sourceTree = "<group>";
@@ -143,7 +140,6 @@
 			files = (
 				914EC17A293BA56C00F9B581 /* Pickup.swift in Sources */,
 				914EC17C293BA58400F9B581 /* Jeep.swift in Sources */,
-				914EC187293BE4D900F9B581 /* Clients.swift in Sources */,
 				914EC178293BA54900F9B581 /* Car.swift in Sources */,
 				914EC17E293BA59600F9B581 /* Crosssover.swift in Sources */,
 				914EC171293BA37000F9B581 /* main.swift in Sources */,
