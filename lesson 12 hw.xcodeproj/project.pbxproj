@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		914EC171293BA37000F9B581 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914EC170293BA37000F9B581 /* main.swift */; };
+		914EC178293BA54900F9B581 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914EC177293BA54900F9B581 /* Car.swift */; };
+		914EC17A293BA56C00F9B581 /* Pickup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914EC179293BA56C00F9B581 /* Pickup.swift */; };
+		914EC17C293BA58400F9B581 /* Jeep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914EC17B293BA58400F9B581 /* Jeep.swift */; };
+		914EC17E293BA59600F9B581 /* Crosssover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914EC17D293BA59600F9B581 /* Crosssover.swift */; };
+		914EC180293BE2FA00F9B581 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914EC17F293BE2FA00F9B581 /* Product.swift */; };
+		914EC182293BE33F00F9B581 /* food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914EC181293BE33F00F9B581 /* food.swift */; };
+		914EC187293BE4D900F9B581 /* Clients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914EC186293BE4D900F9B581 /* Clients.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,13 @@
 /* Begin PBXFileReference section */
 		914EC16D293BA37000F9B581 /* lesson 12 hw */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "lesson 12 hw"; sourceTree = BUILT_PRODUCTS_DIR; };
 		914EC170293BA37000F9B581 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		914EC177293BA54900F9B581 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		914EC179293BA56C00F9B581 /* Pickup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickup.swift; sourceTree = "<group>"; };
+		914EC17B293BA58400F9B581 /* Jeep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jeep.swift; sourceTree = "<group>"; };
+		914EC17D293BA59600F9B581 /* Crosssover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crosssover.swift; sourceTree = "<group>"; };
+		914EC17F293BE2FA00F9B581 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		914EC181293BE33F00F9B581 /* food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food.swift; sourceTree = "<group>"; };
+		914EC186293BE4D900F9B581 /* Clients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clients.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,13 @@
 			isa = PBXGroup;
 			children = (
 				914EC170293BA37000F9B581 /* main.swift */,
+				914EC177293BA54900F9B581 /* Car.swift */,
+				914EC179293BA56C00F9B581 /* Pickup.swift */,
+				914EC17B293BA58400F9B581 /* Jeep.swift */,
+				914EC17D293BA59600F9B581 /* Crosssover.swift */,
+				914EC17F293BE2FA00F9B581 /* Product.swift */,
+				914EC181293BE33F00F9B581 /* food.swift */,
+				914EC186293BE4D900F9B581 /* Clients.swift */,
 			);
 			path = "lesson 12 hw";
 			sourceTree = "<group>";
@@ -120,7 +141,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				914EC17A293BA56C00F9B581 /* Pickup.swift in Sources */,
+				914EC17C293BA58400F9B581 /* Jeep.swift in Sources */,
+				914EC187293BE4D900F9B581 /* Clients.swift in Sources */,
+				914EC178293BA54900F9B581 /* Car.swift in Sources */,
+				914EC17E293BA59600F9B581 /* Crosssover.swift in Sources */,
 				914EC171293BA37000F9B581 /* main.swift in Sources */,
+				914EC182293BE33F00F9B581 /* food.swift in Sources */,
+				914EC180293BE2FA00F9B581 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
